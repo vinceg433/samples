@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dotfuscatorMap SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscatorMap_v1.2.dtd">
+<dotfuscatorMap version="1.1">
+    <header>
+        <timestamp>2021-06-08T16:54:18</timestamp>
+        <product version="6.4.0+4c9f09eba5" user="vince@trifectaperformance.com" serial="############################F05C">PreEmptive Protection Dotfuscator Professional EVALUATION</product>
+    </header>
+    <mapping>
+        <module>
+            <name>ClassLibrary1.dll</name>
+            <type>
+                <name>&lt;StartupCode$ClassLibrary1&gt;.$.NETCoreApp,Version=v5.0.AssemblyAttributes</name>
+                <newname>eval_f</newname>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>&lt;StartupCode$ClassLibrary1&gt;.$ClassLibrary1.AssemblyInfo</name>
+                <newname>eval_e</newname>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>&lt;StartupCode$ClassLibrary1&gt;.$Library</name>
+                <newname>eval_d</newname>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>ClassLibrary1.Functions</name>
+                <methodlist>
+                    <method>
+                        <signature>string()</signature>
+                        <name>getString</name>
+                    </method>
+                    <method>
+                        <signature>string()</signature>
+                        <name>get_secretString</name>
+                        <newname>eval_a</newname>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist>
+                    <property>
+                        <signature>string()</signature>
+                        <name>secretString</name>
+                    </property>
+                </propertylist>
+                <eventlist />
+            </type>
+        </module>
+        <module>
+            <name>ConsoleApp1.exe</name>
+            <type>
+                <name>&lt;StartupCode$ConsoleApp1&gt;.$.NETCoreApp,Version=v5.0.AssemblyAttributes</name>
+                <newname>eval_c</newname>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>&lt;StartupCode$ConsoleApp1&gt;.$ConsoleApp1.AssemblyInfo</name>
+                <newname>eval_b</newname>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>&lt;StartupCode$ConsoleApp1&gt;.$Program</name>
+                <newname>eval_a</newname>
+                <methodlist />
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+            <type>
+                <name>Program</name>
+                <methodlist>
+                    <method>
+                        <signature>string(string)</signature>
+                        <name>from</name>
+                    </method>
+                    <method>
+                        <signature>int32(string[])</signature>
+                        <name>main</name>
+                    </method>
+                </methodlist>
+                <fieldlist />
+                <propertylist />
+                <eventlist />
+            </type>
+        </module>
+    </mapping>
+    <statistics>
+        <statisticline>
+            <description>Total Classes</description>
+            <statistic>8</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods</description>
+            <statistic>4</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties</description>
+            <statistic>1</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events</description>
+            <statistic>0</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Classes Renamed</description>
+            <statistic>6</statistic>
+            <statistic>75.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Methods Renamed</description>
+            <statistic>1</statistic>
+            <statistic>25.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Fields Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Properties Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Total Events Renamed</description>
+            <statistic>0</statistic>
+            <statistic>0.00 %</statistic>
+        </statisticline>
+        <statisticline>
+            <description>Methods Renamed to 'eval_a'</description>
+            <statistic>1</statistic>
+            <statistic>25.00 %</statistic>
+        </statisticline>
+    </statistics>
+</dotfuscatorMap>
